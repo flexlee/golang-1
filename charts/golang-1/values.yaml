@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: v0.0.1
+  repository: /flexlee/golang-1
+  tag: 
   pullPolicy: IfNotPresent
 service:
   name: golang-1
